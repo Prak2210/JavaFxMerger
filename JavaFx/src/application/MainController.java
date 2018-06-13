@@ -37,7 +37,7 @@ public class MainController {
 		}
 		
 		FileRead(SelectedFile);
-		
+		System.out.println("exiting");
 		System.exit(0);
 			
 	
