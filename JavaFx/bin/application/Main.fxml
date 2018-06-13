@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="356.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <ButtonBar layoutX="14.0" layoutY="249.0" prefHeight="40.0" prefWidth="78.0" />
+      <ButtonBar layoutX="318.0" layoutY="259.0" prefHeight="40.0" prefWidth="78.0">
+         <buttons>
+            <ButtonBar prefHeight="40.0" prefWidth="78.0" />
+         </buttons>
+      </ButtonBar>
+      <ListView fx:id="le2" layoutX="23.0" layoutY="64.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="236.0" layoutY="290.0" text="Files will be merged once selected" />
+    <Button id="b1" fx:id="b1" layoutX="363.0" layoutY="312.0" mnemonicParsing="false" onAction="#b1Action" text="Select File" />
+   </children>
+</AnchorPane>
